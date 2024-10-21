@@ -5,6 +5,6 @@ async function changeH1() {
     "https://vite-test-pushing-from-local.onrender.com/"
   );
   const text = await response.json;
-  h1.textContent = text;
+  h1.textContent = text["message"];
   document.body.appendChild(h1);
 }

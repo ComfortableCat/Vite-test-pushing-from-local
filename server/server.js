@@ -5,7 +5,7 @@ const app = express();
 app.use(cors());
 
 app.get("/", (req, res) => {
-  res.send("GREAT STUFF");
+  res.send({ message: "GREAT STUFF" });
 });
 
 app.listen(8080, () => {
