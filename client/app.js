@@ -6,7 +6,6 @@ async function changeH1() {
   );
   const text = await response.json;
   h1.textContent = await text["message"];
-  console.log(test);
   document.body.appendChild(h1);
 }
 
