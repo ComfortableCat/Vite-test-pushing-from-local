@@ -9,4 +9,5 @@ async function changeH1() {
   console.log(test);
   document.body.appendChild(h1);
 }
+
 changeH1();
